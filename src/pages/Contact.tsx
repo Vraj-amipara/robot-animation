@@ -12,9 +12,9 @@ export default function Contact() {
     setFormStatus('Sending...');
 
     if (form.current) {
-      const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-      const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-      const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+      const serviceId = import.meta.env.service_t8td6ee;
+      const templateId = import.meta.env.template_p73hgy2;
+      const publicKey = import.meta.env.baHEoESiMEe2HqXSp;
 
       if (!serviceId || !templateId || !publicKey || serviceId === 'your_service_id') {
         // Simulate success if API keys are not provided
