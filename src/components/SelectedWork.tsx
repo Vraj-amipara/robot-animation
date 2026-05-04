@@ -67,7 +67,7 @@ export default function SelectedWork() {
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
             >
-              <div className="flex flex-col gap-2 relative z-10 w-full md:w-auto">
+              <div className="flex flex-col gap-1 relative z-10 w-full md:w-auto">
                 <div className="flex items-center gap-3">
                     <h3 className="font-display text-2xl md:text-3xl font-medium text-light transition-colors group-hover:text-accent">
                       {work.title}
